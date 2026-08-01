@@ -1,0 +1,25 @@
+# Virtual environments
+venv/
+yolo_env/
+
+# Heavy model weights (.pt files)
+*.pt
+
+# Datasets, frames, raw data, and annotations
+annotations/
+data_pilot/
+test_frames/
+test_raw/
+train_val_frames/
+train_val_raw/
+visualized_checks/
+yolo_dataset_v1/
+yolo_dataset_v2/
+yolo_dataset_v3/
+yolo_labels/
+
+# Logs, cache, and exports
+*.log
+__pycache__/
+*.onnx
+*.torchscript
